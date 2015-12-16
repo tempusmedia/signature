@@ -1,0 +1,1 @@
+{!!   Html::image('/signature.png') !!}
