@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+
     <meta charset="utf-8">
     <title>jQuery Signature Pad Examples</title>
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
@@ -17,7 +18,7 @@
 
 <h1 style="margin-top:150px;">Digitalni potpis</h1>
 {!!  Form::open(array('action' => 'SignatureController@store', 'method' => 'POST')) !!}
-    <div class="sigPad" id="linear" style="width:404px;">
+    <div class="sigPad" id="smoothed-variableStrokeWidth" style="width:404px;">
 
         <ul class="sigNav">
             <li class="drawIt"><a href="#draw-it" >Potpis</a></li>
