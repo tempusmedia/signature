@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b32c6212-37d4-449f-83e4-e61fb4299472" name="Default" comment="Master">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/signature.png" afterPath="$PROJECT_DIR$/public/signature.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SignatureController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SignatureController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="signature.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/create.blade.php">
+      <file leaf-file-name="SignatureController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SignatureController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23809524">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.9285714">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -56,8 +58,8 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SignatureController.php" />
         <option value="$PROJECT_DIR$/resources/views/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SignatureController.php" />
       </list>
     </option>
   </component>
@@ -130,6 +132,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="signature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="signature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -149,52 +165,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,7 +334,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -396,14 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.1904762">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/gd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="1045" column="9" selection-start-line="1045" selection-start-column="9" selection-end-line="1045" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -487,44 +462,216 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SignatureController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5104762">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-          <folding>
-            <marker date="1450307605000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="  Draws a thick line ..." />
-            <marker date="1450307605000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23809524">
           <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450309276000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/gd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1045" column="9" selection-start-line="1045" selection-start-column="9" selection-end-line="1045" selection-end-column="9" />
+          <folding>
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Retrieve information about the currently installed GD library ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draws an arc ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw an ellipse ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a character horizontally ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a character vertically ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the index of the color of a pixel ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Allocate a color for an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Copy the palette from one image to another ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from the image stream in the string ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the index of the closest color to the specified color ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the index of the color which has the hue, white and blackness ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" De-allocate a color for an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the index of the specified color or its closest possible alternative ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the index of the specified color ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set the color for the specified palette index ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Define a color as transparent ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Find out the number of colors in an image's palette ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the colors for an index ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Copy part of an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Copy and merge part of an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Copy and merge part of an image with gray scale ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Copy and resize part of an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new palette based image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new true color image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Finds whether an image is a truecolor image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Convert a true color image to a palette image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set the thickness for line drawing ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a partial arc and fill it ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a filled ellipse ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set the blending mode for an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set the flag to save full alpha channel information (as opposed to single-color transparency) when saving PNG images ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Allocate a color for an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the index of the specified color + alpha or its closest possible alternative ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the index of the closest color to the specified color + alpha ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get the index of the specified color + alpha ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Copy and resize part of an image with resampling ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Rotate an image with a given angle ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Should antialias functions be used or not ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set the tile image for filling ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set the brush image for line drawing ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set the style for line drawing ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from GD file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from GD2 file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Create a new image from a given part of GD2 file or URL ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Output a PNG image to either the browser or a file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Output image to browser or file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Output image to browser or file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Output image to browser or file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Output GD image to browser or file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Output GD2 image to browser or file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Destroy an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Apply a gamma correction to a GD image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Flood fill ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a filled polygon ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a filled rectangle ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Flood fill to specific color ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get font width ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get font height ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Enable or disable interlace ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a line ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Load a new font ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draws a polygon ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a rectangle ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set a single pixel ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a string horizontally ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a string vertically ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get image width ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Get image height ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draw a dashed line ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Give the bounding box of a text using TrueType fonts ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Write text to the image using TrueType fonts ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Give the bounding box of a text using fonts via freetype2 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Write text to the image using fonts using FreeType 2 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Load a PostScript Type 1 font from file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Free memory used by a PostScript Type 1 font ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Change the character encoding vector of a font ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Extend or condense a font ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Slant a font ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Draws a text over an image using PostScript Type1 fonts ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Give the bounding box of a text rectangle using PostScript Type1 fonts ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Return the image types supported by this PHP build ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Convert JPEG image file to WBMP image file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Convert PNG image file to WBMP image file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Output image to browser or file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Set the alpha blending flag to use the bundled libgd layering effects ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Makes the colors of the palette version of an image more closely match the true color version ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Output XBM image to browser or file ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Applies a filter to an image ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Apply a 3x3 convolution matrix, using coefficient and offset ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used as a return value by imagetypes ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used as a return value by imagetypes ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used as a return value by imagetypes ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used as a return value by imagetypes ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used as a return value by imagetypes ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used as a return value by imagetypes ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special color option which can be used in stead of color allocated with ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special color option which can be used in stead of color allocated with ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special color option which can be used in stead of color allocated with ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special color option which can be used in stead of color allocated with ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special color option which can be used in stead of color allocated with ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A style constant used by the imagefilledarc function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A style constant used by the imagefilledarc function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A style constant used by the imagefilledarc function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A style constant used by the imagefilledarc function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A style constant used by the imagefilledarc function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A type constant used by the imagegd2 function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A type constant used by the imagegd2 function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Alpha blending effect used by the imagelayereffect function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Alpha blending effect used by the imagelayereffect function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Alpha blending effect used by the imagelayereffect function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Alpha blending effect used by the imagelayereffect function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" When the bundled version of GD is used this is 1 otherwise  ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Special GD filter used by the imagefilter function.  ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" The GD version PHP was compiled against. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" The GD major version PHP was compiled against. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" The GD minor version PHP was compiled against. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" The GD release version PHP was compiled against. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" The GD &quot;extra&quot; version (beta/rc..) PHP was compiled against. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A special PNG filter, used by the imagepng function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A special PNG filter, used by the imagepng function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A special PNG filter, used by the imagepng function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A special PNG filter, used by the imagepng function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A special PNG filter, used by the imagepng function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A special PNG filter, used by the imagepng function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" A special PNG filter, used by the imagepng function. ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" @since 5.5.0 ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+            <marker date="1439879736000" expanded="true" signature="-1:-1" placeholder=" Used together with imagesetinterpolation(). ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SignatureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9285714">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -39,7 +39,7 @@ class SignatureController extends Controller
     public function store(Request $request)
     {
 
-        $json = Input::get('output'); // From Signature Pad
+        $json = $request->output; // From Signature Pad
         $img = $this->sigJsonToImage($json, array('imageSize' => [400, 250]));;
         $img = imagepng($img, 'signature.png');
         return view('show');
